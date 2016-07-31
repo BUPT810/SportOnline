@@ -58,4 +58,26 @@
         <item name="android:checkable">true</item>
         <item name="android:textColor">@color/text_gray</item>
     </style>
+    <style name="ordergym_date_text">
+        <item name = "android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@drawable/tab_menu_bg</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@drawable/tab_menu_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textSize">13sp</item>
+    </style>
 </resources>
