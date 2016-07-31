@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vac.sportapp.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroup">
+    </android.support.v4.view.ViewPager>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_first"
+            style="@style/tab_item"
+            android:drawableTop="@drawable/tab_menu_message"
+            android:text="预约"/>
+        <RadioButton
+            android:id="@+id/rb_second"
+            style="@style/tab_item"
+            android:drawableTop="@drawable/tab_menu_message"
+            android:text="发现"/>
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:id="@+id/rb_center"
+            android:button="@null"
+            android:clickable="false"
+            android:background="@mipmap/center"/>
+        <RadioButton
+            android:id="@+id/rb_third"
+            style="@style/tab_item"
+            android:drawableTop="@drawable/tab_menu_message"
+            android:text="圈子"/>
+        <RadioButton
+            android:id="@+id/rb_forth"
+            style="@style/tab_item"
+            android:drawableTop="@drawable/tab_menu_message"
+            android:text="我的"/>
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_first_activity">
+    <FrameLayout
+        android:id="@+id/container_firstfrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_top">
+    </FrameLayout>
+    <!--顶部的tab栏-->
+    <RelativeLayout
+        android:id="@+id/relative_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <info.hoang8f.android.segmented.SegmentedGroup
+            android:id="@+id/segmentGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/frag_rb_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="约场地"
+                android:minHeight="33dp"
+                android:minWidth="70dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:gravity="center"
+                android:checked="true"
+                android:textColor="@drawable/button_text_color"
+                android:button="@null" />
+            <RadioButton
+                android:id="@+id/frag_rb_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:minHeight="33dp"
+                android:minWidth="70dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:checked="false"
+                android:textColor="@drawable/button_text_color"
+                android:text="约教练"/>
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+        <ImageView
+            android:id="@+id/top_image"
+            android:layout_width="30dp"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/segmentGroup"
+            android:paddingLeft="50dp"
+            android:src="@mipmap/location"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/gymdetail_share"
+        android:icon="@mipmap/share"
+        app:showAsAction="always"
+        android:orderInCategory="5"
+        android:padding = "5dp"
+        android:title="Share"></item>
+    <item android:id="@+id/gymdetail_like"
+        android:icon="@mipmap/like"
+        android:title="Like"
+        android:padding = "5dp"
+        android:orderInCategory="90"
+        app:showAsAction="always"></item>
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+     <ListView
+         android:id="@+id/address_list_1"
+         style="@style/droplist"></ListView>
+     <ListView
+    android:id="@+id/address_list_2"
+    style="@style/droplist"></ListView>
+    </LinearLayout>
+</LinearLayout>

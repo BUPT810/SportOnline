@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5EDF1"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/text_choosecity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:drawableRight="@mipmap/dropdown_normal_right"
+            android:onClick="onClick"
+            android:text="北京"
+            android:textColor="@color/text_gray" />
+
+        <EditText
+            android:id="@+id/edit_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:hint="请输入场馆名称"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_location_query"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="搜索"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:background="#F5EDF1"
+        android:orientation="horizontal">
+
+        <com.vac.sportapp.MyToggleButton
+            android:id="@+id/toggle1"
+            style="@style/toggle"
+            android:text="全部类别" />
+
+        <com.vac.sportapp.MyToggleButton
+            android:id="@+id/toggle2"
+            style="@style/toggle"
+            android:text="全城" />
+
+        <com.vac.sportapp.MyToggleButton
+            android:id="@+id/toggle3"
+            style="@style/toggle"
+            android:text="筛选" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear2">
+        <ListView
+            android:id="@+id/ff_fragment_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

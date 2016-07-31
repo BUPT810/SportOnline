@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sports_category">
+        <item>乒乓球</item>
+        <item>篮球</item>
+        <item>足球</item>
+        <item>棒球</item>
+        <item>羽毛球</item>
+        <item>保龄球</item>
+        <item>健身房</item>
+        <item>游泳馆</item>
+        <item>瑜伽</item>
+        <item>武术</item>
+        <item>跆拳道</item>
+    </string-array>
+    <string-array name="district">
+        <item>附近</item>
+        <item>东城区</item>
+        <item>西城区</item>
+        <item>朝阳区</item>
+        <item>丰台</item>
+        <item>海淀</item>
+        <item>石景山</item>
+        <item>海淀区</item>
+        <item>门头沟区</item>
+        <item>房山区</item>
+        <item>通州区</item>
+        <item>顺义区</item>
+        <item>昌平区</item>
+        <item>大兴区</item>
+        <item>怀柔区</item>
+        <item>平谷区</item>
+        <item>密云区</item>
+        <item>延庆区</item>
+    </string-array>
+    <string-array name="fujin">
+        <item>1km</item>
+        <item>3km</item>
+        <item>5km</item>
+        <item>10km</item>
+        <item>全城</item>
+    </string-array>
+    <string-array name="haidian">
+        <item>全部</item>
+        <item>昌平镇</item>
+        <item>五道口</item>
+        <item>上地</item>
+        <item>中关村</item>
+        <item>北太平庄</item>
+        <item>魏公村</item>
+        <item>海淀区</item>
+        <item>门头沟区</item>
+        <item>房山区</item>
+        <item>通州区</item>
+        <item>顺义区</item>
+        <item>昌平区</item>
+        <item>大兴区</item>
+        <item>怀柔区</item>
+        <item>平谷区</item>
+        <item>密云区</item>
+        <item>延庆区</item>
+    </string-array>
+    <string-array name="cities_L">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+</resources>
